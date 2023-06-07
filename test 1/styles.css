@@ -1,8 +1,8 @@
 /* Reset default styles */
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 01px ;
+    padding: 05px;
   }
   
   /* Set default font and background */
@@ -13,7 +13,7 @@
   
   /* Container styles */
   .container {
-    max-width: 1200px;
+    max-width: 1700px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -49,7 +49,7 @@
   
   /* Main styles */
   main {
-    padding: 40px 0;
+    padding: 30px 0;
   }
   
   h1, h2, h3 {
@@ -98,24 +98,59 @@
   }
   
   /* Testimonials section styles */
-  #testimonials {
-    background-color: #ffffff;
+  #appointments {
+    background-color: #f9f9f9;
     padding: 40px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .testimonial {
+  #appointments h2 {
+    color: #333333;
+    text-align: center;
     margin-bottom: 20px;
   }
   
-  .testimonial p {
-    font-style: italic;
-    color: #555555;
+  #appointments p {
+    color: #777777;
+    text-align: center;
+    margin-bottom: 40px;
   }
   
-  .testimonial .author {
+  .appointment-form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .appointment-form label {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
-    margin-top: 10px;
+    color: #333333;
+  }
+  
+  .appointment-form input,
+  .appointment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  
+  .appointment-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6600;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment-form button:hover {
+    background-color: #e65100;
   }
   
   /* Contact section styles */
